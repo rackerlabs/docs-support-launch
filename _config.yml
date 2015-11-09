@@ -1,0 +1,16 @@
+name: Rackspace Support Launch
+url: https://support.rackspace.com/launch
+
+# Build settings
+markdown: kramdown
+
+assets:
+  sources:
+  - _assets/css
+  - _assets/js
+  - _assets/images
+  css_compressor: ~
+  gzip: false
+
+gems:
+ - jekyll-assets
